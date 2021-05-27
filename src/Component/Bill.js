@@ -15,7 +15,7 @@ export default function Bill() {
             <div>
               {/* actual bill description */}
               <div className="flex justify-between px-3 py-2">
-                <div>{food.name}price: </div>
+                <div>{food.name}{" "}price: </div>
                 <div className="flex text-justify">
                   ({food.qty} * €{food.price}){' '}
                 </div>
